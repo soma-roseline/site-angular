@@ -1,0 +1,300 @@
+section{
+    display: block;
+}
+
+.Team{
+    padding-top: 3rem;
+    padding-bottom: 80px;
+    
+    position: relative;
+    /* background-color: red; */
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px; 
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.row{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.col-lg-12{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 25px;  
+}
+
+
+.texte{
+    text-align: center;
+    
+}
+
+h1{
+    
+    color:black ;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    padding-top: 30px;
+    color: #a8aeb4;
+}
+
+.card{
+    margin-right: 25px;
+    border: 0px;
+    border-bottom: solid 2px #a8aeb4;
+}
+
+img{
+    border-radius: 0.25rem; 
+}
+
+
+
+.card-title{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.card-text{
+    margin-bottom: 20px;
+}
+
+
+.process{
+    padding-top: 3rem;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: #fafbfe;
+    width: 100%;
+    
+}
+
+
+
+
+.processtitle{
+    
+    color:black ;
+    font-weight: bold;
+}
+
+
+
+
+
+.col-md-6 {
+    margin-top: 75px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    text-align: left;
+    
+    /* text-align: left; */
+    /* position: relative; */
+}
+
+.right{
+    padding-left: 100px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+
+
+
+
+
+.btn{
+    background-color: #fb3e3e;
+    border: 2px solid #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    width: auto;
+    margin-top: 30px;
+    color: white; 
+}
+
+
+.temoignage{ 
+    padding-top: 3rem;
+    padding-bottom: 80px;
+    position: relative;
+    /* background-color: #fafbfe; */
+    width: 100%;
+    /* background-color: orangered; */
+}
+
+
+
+.card-temoignage{
+    
+    border: solid 1px #e0e0e0;
+    border-radius: 15px;
+    width: 50%;
+    
+    
+    
+}
+
+.img-temoignage{
+    border-radius: 50%;
+    width: 68px;
+    margin: 0px auto;
+    
+
+}
+
+.img-top{
+    padding: 0.25rem;
+    
+    background-color: blue;
+    border: 1px solid #dee2e6;
+}
+
+
+.card-text-temoignage{
+    max-width: 600px;
+    font-style: italic;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+button{
+    background-color: #fb3e3e;
+    border: 1px solid;
+    color: black;
+}
+
+
+h5{
+    color: black;
+}
+
+span{
+    color: #a8aeb4;
+}
+
+h5, span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 15px;
+    margin-bottom: 0.5rem;
+}
+
+
+.start{
+    
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    
+    /* background-color: #fafbfe; */
+    width: 100%;
+    background:linear-gradient(rgba(126, 195, 232, 0.85),rgb(3,20,45,0.85)),no-repeat url(../../assets/images/image11.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+}
+
+.start-contenu{
+    height: 60vh;
+}
+
+.col-start{
+    height: 60vh;
+    
+}
+
+.startitle{
+    padding-top: 0px;
+    color: white;
+}
+
+.startparagraphe{
+    color: white;
+    font-weight: 500;
+}
+
+
+.btn{
+    color: black;
+    background-color: white;
+    border: solid 2px #fb3e3e;
+}
+
+.bg-patern-effect{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+@media (min-width:992px){
+    .Team{
+        /* margin-top: 51% ; */
+    }
+
+    .process{
+        /* margin-top: 140%; */
+        /* height: 100vh; */
+    }
+
+    .temoignage{
+        /* margin-top: 190%; */
+    }
+
+    .start{
+        /* margin-top: 229%; */
+    }
+}
+
+
+
+
+
+@media (max-width:767px){
+    .Team{
+        /* margin-top: 562%; */
+    }
+
+    .process{
+        /* margin-top: 1080%; */
+        
+        
+    }
+
+    .temoignage{
+        /* margin-top: 140%; */
+    }
+}
+
+
+
+
+
+
+
+
+

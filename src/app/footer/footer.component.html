@@ -1,0 +1,52 @@
+<footer>
+    <div class="container">
+        <div class="row" >
+            <div class="col-lg-3" >
+            <div class="card-group" >
+                <div class="card"  *ngFor="let cardcontent of cardcontent">
+                  <div class="card-body">
+                    <h4 class="card-title">{{cardcontent.cardtitle}}</h4>
+                    <div class="card-text">
+                        <ul>
+                           <li>
+                           <a href="#">{{cardcontent.list1}}</a>
+                           </li>
+
+                           <li>
+                           <a href="#">{{cardcontent.list2}}</a>
+                           </li>
+
+                           <li>
+                           <a href="#">{{cardcontent.list3}}</a>
+                           </li>
+
+                           <li>
+                           <a href="#">{{cardcontent.list4}}</a>
+                           </li> 
+                           
+                        </ul>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+        </div> 
+        </div>
+    </div>
+</footer>
+
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="left">
+                    <p>{{copyrighttext}}</p>
+                </div>
+
+                <div class="right">
+                    <img src= {{urlimage}} alt="moyen de paiement">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,142 @@
+section{
+    display: block;
+    position: relative;
+}
+
+.tarification{
+    padding-top: 3rem !important; 
+    padding-bottom: 80px;
+    // margin-right: 0px;
+    
+    width: 100%;
+    /* background-color: green; */
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.row{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-12{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 25px;
+
+   
+}
+
+/* .texte{
+    text-align: center;
+    
+} */
+
+h1{
+    
+    color:black ;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.paragraphe{
+    color: #a8aeb4;
+}
+
+
+.card{
+    border-top: solid 5px rgba(126, 195, 232, 0.85);
+    border-left: solid 3px rgba(126, 195, 232, 0.85);
+}
+
+
+.row-cols-lg-4{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.col-lg-4{
+    border: solid 2px;
+    margin-right: 5px;
+}
+
+.col{
+    justify-content: center;
+    
+}
+
+h5{
+    color: white;
+    font-weight: 500;
+    border: solid 1px;
+    background-color: rgba(126, 195, 232, 0.85);
+    padding: 10px 22px;
+  
+}
+
+
+h2{
+    color: black;
+    font-weight: bold;
+}
+
+h6{
+    color: #a8aeb4;
+}
+
+span{
+    color: rgb(235, 48, 60);
+    font-weight: bold;
+}
+
+.text-color{
+    color: rgb(235, 48, 60);
+    font-weight: bold;
+}
+
+.span-color{
+    color: #212529;
+    font-weight: lighter;
+    
+}
+
+button{
+    color: rgb(235, 48, 60);
+    border: 0px;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+
+
+
+
+@media (min-width: 992px){
+    .tarification{
+        /* margin-top: 29%; */
+    }
+}
+
+
+@media (max-width: 767px){
+    .tarification{
+        /* margin-top: 100%; */
+    }
+}

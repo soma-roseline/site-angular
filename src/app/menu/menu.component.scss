@@ -1,0 +1,88 @@
+nav{
+    padding: 10px 0px;
+    box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    
+    
+    
+}
+
+
+
+.navbar-brand{
+    color: rgba(126, 195, 232, 0.85);
+    font-weight: 700 ;
+    letter-spacing: 2px;
+    height: auto;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.logo{
+    border: solid 1px;
+    background-color: black;
+
+}
+
+a{
+    background-color: transparent;
+}
+
+.navbar-toggler{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-nav li a{
+    font-size: 15px;
+    background-color: transparent;
+    padding: 15px 0;
+    margin: 0 10px;
+    transition: all 0.4s;
+}
+
+button{
+    background-color:  rgb(235, 48, 60);
+    border: 0px;
+    padding: 10px 22px;
+    border-radius: 5px;
+}
+
+button a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+
+
+
+
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg{
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        
+    }
+}
+
+@media (max-width:767px){
+    .navbar-expand-lg{
+        width: 100%;
+    }
+
+}
+
+    

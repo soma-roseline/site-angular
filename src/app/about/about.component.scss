@@ -1,0 +1,380 @@
+section{
+    display: block;
+}
+
+.services{
+    padding-top: 3rem;
+    padding-bottom: 80px;
+    /* margin-top: 51%; */
+    position: relative;
+    /* background-color: red; */
+}
+
+.container {
+    /* display: flex;
+    padding-top: 25px; */
+    width: 100%;
+    /* margin-top: 50rem; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+.row{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.row-cols-md-3{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.col{
+    justify-content: center;
+    
+}
+
+.col-lg-12{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 25px;
+
+   
+}
+
+
+.texte{
+    /* padding-top: 50rem;
+    width: 100%;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    right: 0; */
+    /* padding-left: 25px; */
+    
+}
+
+h1{
+    font-size: 28px;
+    font-family: poppins sans-serif;
+    /* padding: 0px 0px 16px; */
+    text-align: center;
+    
+    // border-bottom: solid 3px #FF0000;
+    
+}
+
+p{
+    /* font-size: 14.4px; */
+    /* font-family: rubik sans-serif; */
+    margin: 0px 0px 16px;
+    padding: 30px 0px 0px ;
+    text-align: center;
+    color: #a8aeb4;
+
+}
+
+
+
+/* .container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+} */
+
+
+
+.card{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid beige;
+    margin-top: 30px ;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    /* padding-left: 100px; */
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-text{
+    
+}
+
+img{
+    width: 50%;
+}
+
+button{
+    background-color: #fb3e3e;
+    border: 2px solid #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    width: auto;
+    margin-top: 30px;
+    color: white; 
+}
+
+
+
+
+.caracteristique{
+    padding-top: 3rem;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: #F9FAFD;
+    width: 100%;
+}
+
+.container-fluid-content{
+    
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-top: 80px; */
+    padding-bottom: 80px;
+    /* padding: 0; */
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    /* display: table; */
+    
+    
+    
+}
+
+.row{ 
+    /* margin-top: auto;
+    margin-right: -15px;
+    margin-left: -15px; */
+    /* padding-top: 50px; */
+    /* padding: 0px -15px; */
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.col-md-6 {
+    margin-top: 75px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+    /* text-align: left; */
+    /* position: relative; */
+}
+
+h3{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    /* margin-bottom: 25px;
+    margin-top: 0; */
+    line-height: 32px;
+}
+
+.descriptif {
+    /* padding-top: 75px;
+    padding-left: 100px  */
+    
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 1rem;
+    
+    
+    /* padding-right: 50px; */
+   /*  padding-bottom: 50px;
+    margin-right: 25px; */
+    /* height: 100vh; */
+
+    
+    
+    /* justify-content: center; */
+   
+}
+
+.paragraphe-content{
+    text-align: left;
+    line-height: 24px;
+    /* margin-right: 25px; */
+    /* margin-top: 0; */
+    /* margin-bottom: 1rem; */
+    color: #a8aeb4;
+    
+}
+
+li{
+    text-align: left;
+    color: #a8aeb4;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    
+  }
+
+button{
+    background-color: rgb(235, 48, 60);
+    width: 120px;
+    border: 0;
+    height: 40px;
+    border-radius: 3px;   
+}
+
+
+.illustration{
+    // margin-left: 100px;
+    /* margin-right: 25px; */
+    /* padding-top: 100px ; */
+    /* height: 100vh; */
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+   /*  margin-top: 50px; */
+    
+    padding-left: 50px;
+    
+    
+    /* padding-right: 25px; */
+    /* width: 100%; */
+    
+}
+
+.img-fluid{
+    max-width: 100%; 
+    height: auto;
+    padding-left: 50px;
+    padding: 0px 15px 32px;
+}
+
+.img-caracteristique{
+   /*  overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle; */
+    /* padding-left: 50px;
+    padding: 0px 15px 32px; */
+    border-style: none;
+    vertical-align: middle;
+    width: 100%;
+    
+}
+
+
+
+
+.col-lg-12{
+    
+    /* margin: 0;
+    padding: 0; */
+    right: 0;
+    text-align: center;
+       
+}
+
+.bg-patern-effect{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+
+
+.dream{
+    padding-top: 3rem;
+    padding-bottom: 80px;
+    position: relative;
+    /* background-color: #F9FAFD; */
+    width: 100%;
+    background: linear-gradient(rgba(126, 195, 232, 0.85),rgb(3,20,45,0.85)),no-repeat url("../../assets/images/image5.jpg");
+    height: 70vh;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: poppins sans-serif;
+    padding-top: 50px;
+    
+}
+
+.text3paragraphe{
+    color: #a8aeb4;
+    text-align: center;
+    line-height: 24px;
+    padding-top: 15px;
+    font-size: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn{
+    background-color: rgb(235, 48, 60);
+    border: 2px solid #fff;
+    width: auto;
+    margin-top: 30px;
+    margin-right: 0.5rem;
+    color: black;
+}
+
+
+
+
+
+@media (min-width: 992px){
+    .services{
+       /*  margin-top: 50%; */
+    }
+
+}
+
+
+@media (max-width: 767px){
+    .services{
+        /* margin-top: 320%; */
+        
+    }
+
+    .container1{
+        margin-top: 0px;
+    }
+
+}
+
